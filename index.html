@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Wed, 18 Oct 2017 18:37:30 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Test</title>
+    
+    <style type="text/css">
+    <!--
+    body {
+      color:#000000;
+      background-color:#FFFFFF;
+      background-image:url('Background Image');
+      background-repeat:no-repeat;
+    }
+    a  { color:#0000FF; }
+    a:visited { color:#800080; }
+    a:hover { color:#008000; }
+    a:active { color:#FF0000; }
+    -->
+    </style>
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Drop on Hover</title>
+    <script type="text/javascript">
+        function DropList() {
+            var n = document.getElementById("sel").options.length;
+	        document.getElementById("sel").size = n;            
+			
+	}
+		        function DropList1() {
+			var n1 = document.getElementById("sel1").options.length
+			document.getElementById("sel1").size = n1;            
+	
+        }
+
+		       function DropList2() {
+			var n2 = document.getElementById("sel2").options.length
+			document.getElementById("sel2").size = n2;            
+
+        }
+    </script>
+</head>
+</html>
+<body>
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<img src="test.jpg" width="1360" height="200" alt="" title="" />
+
+  <label for="">WHAT ROLE IS TEST FOR</label>
+
+
+    <div>
+       <select id="sel" onmouseover="DropList()" onmouseout="this.size=1;">
+            <option>JAVA</option>
+            <option>HADOOP</option>
+            <option>C</option> 
+            <option>C++</option> 
+            <option>IOS</option>
+        </select>
+    </div>  
+<br><br><br><br>
+<label for="">EXPERIENCE LEVEL</label>
+
+<div>
+       <select id="sel1" onmouseover="DropList1()" onmouseout="this.size=1;">
+            <option>EXPERIENCED</option>
+            <option>BEGINNER</option>
+        </select>
+    </div>  
+<br><br><br><br>
+EXAM LEVEL
+
+<div>
+       <select id="sel2" onmouseover="DropList2()" onmouseout="this.size=1;">
+            <option>EASY</option>
+            <option>HARD</option>
+                    </select>
+    </div>  
+<br><br><br><br>
+
+
+<label for="">JOB DESCRIPTION LINK</label>
+
+<input type="text" name="number" value="">  
+
+<label for="">NUMBER OF QUESTIONS</label>
+
+<input type="text" name="number" value="">
+<BR><BR>
+<input type="radio" name="R1" value="PREDEFINED-TEST">PREDEFINED TEST <input type="radio" name="R1" value="BUILD-YOUR-TEST">BUILD YOUR TEST
+<BR><BR>
+<button onclick="window.location.href='questions.html'">CREATE TEST</button>
+  </body>
+</html>
